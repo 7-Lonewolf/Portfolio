@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0;
+    background-color: #caf0f8;
+}
+a{
+    display: flex;
+    margin: 0.25%;
+    /* padding: 1;
+    border: 1; */
+}
+img{
+    display: flex;
+    justify-content: top right;
+    height: 5%;
+    width: 5%;
+    padding: .5%;
+    border: 0;
+}
+div{
+    margin: 40px 40px;
+    
+}
+div h4{
+    margin: 20px 0px;
+}
+div h3{
+    margin: 5px 0px;
+}
+button {
+    margin: 20px 0px;
+}
+div .beta{
+    display: flex;
+}
