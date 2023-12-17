@@ -2,15 +2,16 @@
     margin: 0%;
     padding: 0;
     background-color: #caf0f8;
+    box-sizing: border-box;
 }
 a{
-    display: flex;
+    /* display: flex; */
     margin: 0.25%;
     /* padding: 1;
     border: 1; */
 }
 img{
-    display: flex;
+    /* display: flex; */
     justify-content: top right;
     height: 5%;
     width: 5%;
@@ -30,6 +31,29 @@ div h3{
 button {
     margin: 20px 0px;
 }
-div .beta{
-    display: flex;
+.project{
+    
+    height: 10rem;
+    width: 15rem;
+    margin: 2rem;
+}
+.description{
+    background-color: rgb(247 84 33);
+    height: 10rem;
+    padding: 1.5rem;
+    
+}
+.heading {
+    background-color: rgba(249, 249, 249, 0.856);
+    height: 2rem;
+}
+.heading,
+.description {
+    color: rgb(30, 24, 24);
+    text-align: center;
+    margin: 0;
+}
+.heading,
+.description{
+    justify-self: center;
 }
