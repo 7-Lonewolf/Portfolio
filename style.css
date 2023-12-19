@@ -36,6 +36,7 @@ button {
     height: 10rem;
     width: 15rem;
     margin: 2rem;
+    display: inline-block;
 }
 .description{
     background-color: rgb(247 84 33);
