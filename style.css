@@ -5,9 +5,14 @@
 }
 header{
     height: 50px;
-    margin: 5px;
+    margin: 15px 10px 5px 20px;
     padding: 5px;
-    /* background-color: whitesmoke; */
+    /* background-color: rgba(36, 6, 71, 0.868); */
+    position: fixed;
+    top: 0;
+}
+.content1{
+    margin: 15px 10px 10px 20px;
 }
 #uno{
     margin: 0px 1000px 0px 10px;
@@ -26,9 +31,7 @@ a{
     /* background-color: white; */
     /* color: ; */
 }
-.content1{
-    margin: 15px;
-}
+
 #title2{
     text-align: center;
     /* background-color: #03045E; */
@@ -36,7 +39,10 @@ a{
     font-weight: bold;
     font-size: 30px;
     font-family:'Kalam', cursive;
-    margin: 40px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
+}
+.intro{
+    margin: 0px 0px 0px 15px;
 }
 button{
     width: 100px;
@@ -66,3 +72,15 @@ button{
 #tre{
     margin: 20px 0px 0px 0px;
 }
+div .about-me{
+    height: 350px;
+    text-align: center;
+    margin: 100px 10px 100px 15px;
+    font-family:'Kalam', cursive;
+    
+}
+#me{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
